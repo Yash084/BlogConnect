@@ -1,0 +1,38 @@
+/* .job-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 30%;
+    justify-content: space-around;
+    margin: 20px 0 20px 0;
+  } */
+
+
+
+  .job-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 30%; /* Adjust the initial card width as needed */
+    justify-content: space-around;
+    margin: 20px 0 20px 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 45%; /* Adjust the card width for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .card {
+      width: 100%; /* Adjust the card width for even smaller screens */
+    }
+  }
+  
